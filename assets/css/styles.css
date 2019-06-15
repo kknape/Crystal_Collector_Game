@@ -1,1 +1,92 @@
-css style sheet
+/*css style sheet*/
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    background: url("/assets/images/gravel_bg.png");
+  }
+
+.header {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#instructions {
+    padding: 10px;
+    background-color: yellow;
+    width: 795px;
+    margin: 10px;
+}
+
+#theNumber {
+    background-color: greenyellow;
+    padding: 67px 10px 10px 10px;
+    margin: 10px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#winLose {
+    width: 262px;
+    height: 158px;
+    padding: 10px 10px 10px 10px;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    
+}
+
+.crystals {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#crystal1 {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+#crystal2 {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+#crystal3 {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+#crystal4 {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+.scoreTxt {
+    width: 790px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.myScore {
+    width: 790px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
