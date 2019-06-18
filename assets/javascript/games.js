@@ -45,14 +45,6 @@ $(".crystal").on("click", function(){
         $(".myScore").html(counter);
           }
 
-        else if(counter === randomNumber){
-            $("#wins").attr("Wins: " + wins++);
-            replay = confirm("You won! Want to play again?");
-        
-            if (replay) {
-                startGame();
-                }
-            }
         else if(counter > randomNumber){
             $("#losses").html("Losses: " + losses++);
             replay = confirm("Sorry, you lost. Want to play again?");
@@ -60,6 +52,15 @@ $(".crystal").on("click", function(){
                 if (replay) {
                 startGame();
                 }
-        }    
+        }   
+        
+        else if(counter == randomNumber){
+            $("#wins").attr("Wins: " + wins++);
+            replay = confirm("You won! Want to play again?");
+        
+            if (replay) {
+                startGame();
+                }
+            }
     });
 });
