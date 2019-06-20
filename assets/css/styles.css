@@ -7,7 +7,7 @@ body {
   }
 
 .header {
-    background-color: rebeccapurple;
+    background-color: blue;
     color: white;
     text-align: center;
     width: 800px;
@@ -16,73 +16,77 @@ body {
 }
 
 #instructions {
-    padding: 10px;
+    padding: 10px 6px 10px 20px;
     background-color: yellow;
-    width: 795px;
+    width: 800px;
     margin: 10px;
+    line-height: 160%;
 }
 
 #theNumber {
     background-color: greenyellow;
-    padding: 50px 10px 0px 10px;
-    margin: 10px;
+    padding: 24px 6px 0px 10px;
+    margin: 10px 5px 0px 10px;
     width: 500px;
     height: 100px;
     text-align: center;
     display: inline-block;
     font-size: 48px;
     color: blue;
+   line-height: 140%;
 }
 
 #winLose {
     width: 262px;
     height: 100px;
-    padding: 23px 10px 30px 10px;
+    padding: 14px 10px 8px 10px;
+    margin: 10px 5px 0px 10px;
     background-color: blue;
     display: inline-block; 
+    font-size: 16pt;
 }
 
 #wins {
     color: white;
-
+    padding: 5px 0px 0px 10px;
 }
 
 #losses {
     color: white;
-
+    padding: 10px 0px 0px 10px;
 }
 
 .crystals {
     font-family: 'Courier New', Courier, monospace;
-
-    
 }
 
 .crystal {
     display: inline-block;
-    width: 180px;
+    width: 176px;
     height: 200px;
     background-color: aqua;
-    margin: 10px;
-    border: 2px solid yellow;
+    margin: 20px 14px 4px 16px;
+    border: 2px solid blue;
+    box-shadow: 5px 8px navy;
+    border-radius: 10px;
 }
 
 .scoreTxt {
-    width: 790px;
+    width: 800px;
     height: 30px;
     background-color: blue;
     color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 10px 10px 14px;
+    margin: 17px;
     padding-top: 8px;
     font-size: 24px;
 }
 .myScore {
-    width: 609px;
+    width: 610px;
     height: 100px;
     background-color: blue;
     color: white;
-    padding: 50px 0px 10px 200px;
+    padding: 50px 0px 10px 220px;
     margin: 10px;
     font-size: 48px;
 }
