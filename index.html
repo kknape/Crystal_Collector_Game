@@ -9,30 +9,60 @@
     integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
     crossorigin="anonymous"></script>
     <title>Crystal Collector Game</title>
+
+   <!--Bootstrap framework-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Bungee|Monoton&display=swap" rel="stylesheet">    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div class="header"><h1>Crystal Collector!</h1></div>
-    <div id="instructions">
-    <p>Click on a crystal to determine it's value and add it to your score.</p>
-    <p>You win the game when your score matches the number in the green block. You lose the game if your score goes over that number.</p>
-    <p>If you choose to play again, the values of the crystals will change.</p>
-    </div>
-    
-    <div id="theNumber"></div>
-    <div id="winLose">
-        <div id="wins">Wins:</div>
-        <div id="losses">Losses:</div>
-    </div>
-
-    <div class="crystals">
-         <!--<div class="crystal"><img src="assets/images/crystal_1.jpg"></div>
-        <div class="crystal"><img src="assets/images/crystal_2.jpg"></div>
-        <div class="crystal"><img src="assets/images/crystal_3.jpg"></div>
-        <div class="crystal"><img src="assets/images/crystal_4.jpg"></div>-->
-    </div> 
-    <div class="scoreTxt">You're score is:</div>
-    <div class="myScore"> </div>
+    <div class="container" class="mx-auto" style="width: 75%;">
+        <div class="jumbotron jumbotron-fluid" id="myContainer">
+                <div class="container" >
+                        <div class="row">
+                            <div class="col col-lg-12"> 
+                                    <div class="header card"><h1>Crystal Collector!</h1></div>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col col-lg-12 card">         
+                                    <div id="instructions">
+                                    <p>Click on a crystal to determine it's value and add it to your score.</p>
+                                    <p>You win the game when your score matches the number in the green block. You lose the game if your score goes over that number.</p>
+                                    <p>If you choose to play again, the values of the crystals will change.</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col col-lg-8">  
+                                    <div id="theNumber"></div>
+                                </div>   
+                                <div class="col col-lg-4">
+                                    <div id="winLose">
+                                        <div id="wins">Wins:</div>
+                                        <div id="losses">Losses:</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row crystals">
+                           <!-- <div class="crystals"> crsytal divs go here
+                                div class="col col-lg-3"></div>
+                                <div class="col col-lg-3"></div>
+                                <div class="col col-lg-3"></div>
+                                <div class="col col-lg-3"></div>
+                            </div>-->
+                        </div> 
+                    <div class="row">
+                        <div class="col col-lg-4"> 
+                            <div class="scoreTxt">You're score is:</div>
+                        </div> 
+                        <div class="col col-lg-8">   
+                            <div class="myScore"> </div>
+                        </div>
+                    </div>
 
     <script src="assets/javascript/games.js"></script>
 </body>

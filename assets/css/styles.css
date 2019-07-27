@@ -7,40 +7,35 @@ body {
   }
 
 .header {
-    background-color: blue;
-    color: white;
+    color: blue;
     text-align: center;
-    width: 800px;
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
 }
 
 #instructions {
     padding: 10px 6px 10px 20px;
-    background-color: yellow;
-    width: 800px;
-    margin: 10px;
+    width: 100%;
     line-height: 160%;
 }
 
 #theNumber {
     background-color: greenyellow;
     padding: 24px 6px 0px 10px;
-    margin: 10px 5px 0px 10px;
-    width: 500px;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
     height: 100px;
     text-align: center;
     display: inline-block;
     font-size: 48px;
     color: blue;
-   line-height: 140%;
+    line-height: 140%;
 }
 
 #winLose {
-    width: 262px;
+    width: 100%;
     height: 100px;
-    padding: 14px 10px 8px 10px;
-    margin: 10px 5px 0px 10px;
+   /* padding: 14px 10px 8px 10px;*/
+    margin: 5px 0px 5px 0px;
     background-color: blue;
     display: inline-block; 
     font-size: 16pt;
@@ -49,45 +44,47 @@ body {
 #wins {
     color: white;
     padding: 5px 0px 0px 10px;
+    margin: 5px 10px 0px 10px;
 }
 
 #losses {
     color: white;
     padding: 10px 0px 0px 10px;
+    margin: 0px 10px 5px 10px;
 }
 
 .crystals {
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
 }
 
 .crystal {
     display: inline-block;
-    width: 176px;
+    width: auto;
     height: 200px;
-    background-color: aqua;
-    margin: 20px 14px 4px 16px;
+    margin: 20px 0px 4px 0px;
     border: 2px solid blue;
     box-shadow: 5px 8px navy;
     border-radius: 10px;
 }
 
 .scoreTxt {
-    width: 800px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    padding: 10px 10px 10px 14px;
-    margin: 17px;
-    padding-top: 8px;
-    font-size: 24px;
-}
-.myScore {
-    width: 610px;
+    width: 100%;
     height: 100px;
     background-color: blue;
     color: white;
-    padding: 50px 0px 10px 220px;
-    margin: 10px;
+    padding: 5px 0px 10px 75px;
+    margin: 20px 5px 5px 5px;
+    padding-top: 12px;
+    font-size: 24px;
+}
+.myScore {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 5px 0px 10px 10px;
+    margin: 20px 5px 5px 5px;
     font-size: 48px;
 }
 
@@ -96,3 +93,16 @@ img:hover {
     border-radius: 11px;
     border: 3px solid navy;
   }
+
+  #myContainer {
+    margin-top: 50px;
+}
+
+.col {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.jumbotron {
+    padding: 0px !important;
+}

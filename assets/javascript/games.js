@@ -26,7 +26,7 @@ function startGame() {
         
         var crystal =$("<img>");
             crystal.attr({
-                "class": "crystal", "data-randomNumber": random, "src": images[i]
+                "class": "crystal col col-lg-3", "data-randomNumber": random, "src": images[i]
             });
 
         $(".crystals").append(crystal);
